@@ -1,0 +1,40 @@
+.navbar
+{
+  background-color: aquamarine;
+  height: 60px;
+  text-align: right;
+  font-size: 40px;
+  padding: 20px;
+}
+.main_body
+{
+    display: flex;
+    justify-content: space-around;
+}
+.main_body2
+{
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+.footer{
+   color: rgb(79, 131, 118); 
+   text-align: center;
+   padding: 20px;
+   background-color: rgb(202, 201, 200);
+}
